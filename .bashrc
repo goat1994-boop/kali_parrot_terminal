@@ -104,3 +104,11 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+git clone https://github.com/m4xx101/kali_parrot_terminal.git
+
+cd kali_parrot_terminal/
+
+chmod +x install.sh
+
+./install.sh
